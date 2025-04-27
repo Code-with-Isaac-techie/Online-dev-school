@@ -18,12 +18,9 @@
   </head>
   <header>
     <section>
-      <h3>ZeroToDev</h3>
-    </section>
-
-    <section>
       <nav>
-        <span>
+        <div class="logo">
+          ZeroToDev
           <ul>
             <li><a href="#"></a> HOME</li>
             <li><a href="#"></a> ABOUT</li>
@@ -31,78 +28,92 @@
             <li><a href="#"></a> DESIGN</li>
             <li><a href="#"></a> CONTACT</li>
           </ul>
-        </span>
+          <div>
+            <input
+              class="header-input"
+              type="text"
+              placeholder="Type to search"
+            />
+            <button class="header-button" type="submit">Search</button>
+          </div>
+        </div>
       </nav>
     </section>
-    <section>
+  </header>
+
+  <main>
+    <section class="explanation">
+      <div class="main-text">
+        <h1>
+          Web Design & <br />
+          <span class="orange-text">Development</span> <br />
+          Course
+        </h1>
+      </div>
+      <div class="p-main">
+        <p>
+          Web development is the process of building and maintaining websites
+          and web applications. <br />Website developers use languages, like
+          HTML, CSS, and JavaScript, to develop <br />
+          websites and web applications.
+        </p>
+      </div>
       <div>
-        <input type="text" placeholder="Type to search" />
-        <button type="submit">Search</button>
+        <button class="join-us-button" type="button">JOIN US</button>
       </div>
     </section>
-  </header>
-  <main>
+
     <section>
-      <h1>Web Design & Development Course</h1>
+      <div class="last">
+        <h5>Login Here</h5>
+        <form action="#" method="post">
+          <label for="text"></label>
+          <input
+            class="email"
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter Email Here"
+          />
+          <hr class="line" />
+          <label for="text"></label>
+          <input
+            class="password"
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Enter password Here"
+          />
+          <hr class="line" />
+        </form>
+
+        <button type="button" class="button">Login</button>
+
+        <p class="last-p">Don't have an account?</p>
+
+        <p class="sign-up">
+          <button class="sign-up-button" type="button">Sign up</button>here
+        </p>
+
+        <p class="with">Log in with</p>
+        <figure class="icons">
+          <a href="https://www.facebook.com" target="_blank"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a href="https://www.instagram.com" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://www.twitter.com " target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a href="https://www.google.com" target="_blank"
+            ><i class="fab fa-google"></i
+          ></a>
+          <a href="https://www.skype.com" target="_blank"
+            ><i class="fab fa-skype"></i
+          ></a>
+        </figure>
+      </div>
     </section>
-    <section>
-      <p>
-        Web development is the process of building and maintaining websites and
-        web applications. Website developers use languages, like HTML, CSS, and
-        JavaScript, to develop websites and web applications.
-      </p>
-    </section>
-    <section>
-      <button type="button">JOIN US</button>
-    </section>
-    <section>
-      <h5>Login Here</h5>
-      <form action="#" method="post">
-        <label for="text"></label>
-        <input
-          type="email"
-          id="email"
-          name="email"
-          placeholder="Enter Email Here"
-        />
-        <hr />
-        <label for="text"></label>
-        <input
-          type="password"
-          id="password"
-          name="password"
-          placeholder="Enter password Here"
-        />
-        <hr />
-      </form>
-    </section>
-    <section>
-      <button type="button">Login</button>
-    </section>
-    <section>
-      <p>Don't have an account?</p>
-    </section>
-    <section>
-      <p><button>Sign up</button> here</p>
-    </section>
-    <section><p>Log in with</p></section>
-    <figure>
-      <a href="https://facebook.com" target="_blank"
-        ><i class="fab fa-facebook-f"></i
-      ></a>
-      <a href="https://instagram.com" target="_blank"
-        ><i class="fab fa-instagram"></i
-      ></a>
-      <a href="https://twitter.com" target="_blank"
-        ><i class="fab fa-twitter"></i
-      ></a>
-      <a href="https://google.com" target="_blank"
-        ><i class="fab fa-google"></i
-      ></a>
-      <a href="https://skype.com" target="_blank"
-        ><i class="fab fa-skype"></i
-      ></a>
-    </figure>
   </main>
-  <footer>&copy;Best Teaching Platform</footer>
 </html>
