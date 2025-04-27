@@ -30,6 +30,13 @@ li {
   bottom: 64px;
 }
 
+li:hover {
+  color: rgb(213, 163, 70);
+  border: none;
+  outline: none;
+  text-decoration: underline;
+}
+
 .header-input {
   color: white;
   background-color: black;
@@ -93,8 +100,12 @@ li {
   padding: 5px 25px 5px 25px;
 }
 
+.join-us-button:hover {
+  color: white;
+}
+
 .last {
-  background-color: black;
+  background-color: rgba(0, 0, 0.1, 0.8);
   border: 2px solid black;
   border-radius: 10px;
   width: 430px;
@@ -180,9 +191,10 @@ h5 {
   font-size: 20px;
 }
 
-.icons {
+.icons a {
   margin-top: 1px;
-  text-align: center;
   font-size: 50px;
   color: white;
+  position: relative;
+  left: 53px;
 }
