@@ -1,0 +1,237 @@
+* {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://images.unsplash.com/photo-1499750310107-5fef28a66643);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 30px;
+  gap: 40px;
+  margin-top: 50px;
+}
+
+.logo {
+  margin-left: 30px;
+  color: orange;
+  font-size: 90px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  color: gray;
+  list-style: none;
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+  display: inline-block;
+  justify-content: space-between;
+  margin-left: 10px;
+  position: relative;
+  top: 0px;
+}
+
+li:hover {
+  color: rgb(213, 163, 70);
+  border: none;
+  outline: none;
+  text-decoration: underline;
+}
+.search-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: auto;
+}
+.header-input {
+  color: white;
+  background-color: black;
+  border: 1px solid rgb(156, 113, 34);
+  border-radius: 4px;
+  text-align: left;
+  font-size: 25px;
+  width: 350px;
+  padding: 0px;
+}
+
+.header-button {
+  color: white;
+  border: 2px solid orange;
+  background-color: orange;
+  border-radius: 4px;
+  font-size: 25px;
+}
+
+.header-button:hover {
+  color: black;
+}
+
+.explanation {
+  flex-wrap: wrap;
+  margin-left: 30px;
+}
+
+.main-text {
+  color: rgb(126, 120, 120);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 57px;
+  margin-top: 100px;
+}
+.orange-text {
+  color: orange;
+  font-size: 110px;
+}
+
+.p-main {
+  color: #979191;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+}
+
+.main-text h1,
+.p-main p {
+  margin: 0;
+}
+
+.join-us-button {
+  margin-top: 40px;
+  background-color: orange;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+  border: 2px solid orange;
+  border-radius: 10px;
+  padding: 5px 25px 5px 25px;
+}
+
+.join-us-button:hover {
+  color: white;
+}
+
+.last {
+  background-color: rgba(0, 0, 0.1, 0.8);
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 430px;
+  min-height: 600px;
+  flex-shrink: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+h5 {
+  color: orange;
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+  margin: 25px 25px 0px 25px;
+  padding: 7px 0px 7px 0px;
+}
+h5:hover {
+  font-weight: bolder;
+  color: gray;
+}
+
+.email {
+  margin-top: 40px;
+  margin-left: 18px;
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 20px;
+}
+.password {
+  font-size: 20px;
+  color: white;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin-left: 18px;
+  margin-top: 25px;
+}
+
+.line {
+  color: orange;
+  width: 375px;
+}
+
+.button {
+  background-color: orange;
+  border: 2px solid orange;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-left: 30px;
+  padding: 7px 115px 7px 152px;
+  font-size: 30px;
+  align-items: center;
+  text-align: center;
+}
+
+.button:hover {
+  color: white;
+}
+
+.last-p {
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+.sign-up {
+  color: #ffffff;
+  text-align: center;
+  font-size: 20px;
+}
+
+.sign-up-button {
+  color: orange;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.sign-up-button:hover {
+  color: white;
+}
+
+.with {
+  text-align: center;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.icons a {
+  margin-top: 1px;
+  font-size: 50px;
+  color: white;
+  position: relative;
+  left: 53px;
+}
+
+.icons a:hover {
+  color: orange;
+}
